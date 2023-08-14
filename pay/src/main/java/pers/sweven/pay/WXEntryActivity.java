@@ -27,7 +27,7 @@ import pers.sweven.pay.platform.wechat.WeChatUser;
 public class WXEntryActivity extends Activity implements IWXAPIEventHandler, OnHttpListener {
 
     private IWXAPI api;
-    private String TAG = "WXEntryActivity";
+    private final String TAG = "WXEntryActivity";
     private int type;
     private WeChatUser userInfo;
     private WeChatAccessToken accessToken;
