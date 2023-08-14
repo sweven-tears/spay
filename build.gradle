@@ -3,7 +3,14 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+
+        // alipay
+        flatDir {
+            dirs 'libs'
+        }
     }
+
+
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
 
